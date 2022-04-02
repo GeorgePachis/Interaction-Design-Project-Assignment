@@ -2,7 +2,7 @@
 
 ### First and Last Name: Χρήστος Ντουσόπουλος Γιώργος Παχής Έκτορας Καράβας
 ### University Registration Number: dpsd14074 dpsd17084 dpsd
-### GitHub Personal Profile: xxx
+### GitHub Personal Profile: https://github.com/GeorgePachis
 
 # Introduction
 
