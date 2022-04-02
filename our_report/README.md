@@ -50,6 +50,7 @@ Communication: Πλακέτα Lilypad, conductive thread
 Content: Οι πληροφορίες που θα παρέχει η συσκευή στον χρήστη θα είναι σχετικά με την υγεία του και τις βασικές λειτουργίες του σώματός του.
 Όπως φαίνεται και στην εικόνα στην θήκη της μπαταρίας, η οποία μπορεί να ραφτεί πάνω σε ύφασμα, έρχεται και κουμπώνει μια μπαταρία λιθίου των 3v. 
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Battery.png)
+
 Πηγή εικόνας:https://learn.sparkfun.com/tutorials/lilypad-basics-e-sewing/installing-your-battery-and-testing-your-finished-circuit 
 
 
