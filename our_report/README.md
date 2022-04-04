@@ -1,7 +1,7 @@
 # Lesson: Interaction Design
 
-### First and Last Name: Χρήστος Ντουσόπουλος Γιώργος Παχής Έκτορας Καράβας
-### University Registration Number: dpsd14074 dpsd17084 dpsd
+### First and Last Name: Χρήστος Ντουσόπουλος Γιώργος Παχής Έκτωρ Καραβάς
+### University Registration Number: dpsd14074 dpsd17084 dpsd14035
 ### GitHub Personal Profile: https://github.com/GeorgePachis
 
 # Introduction
