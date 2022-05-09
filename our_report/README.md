@@ -29,7 +29,7 @@
 ##### iv)Technology:
 Με βάση το project που επιλέξαμε και έπειτα από συζήτηση καταλήξαμε στα παρακάτω components, δίπλα από κάθε component παρατίθεται η πηγή του: 
 
-Conductive thread (https://www.sparkfun.com/products/11791/15 ) 
+Conductive thread (https://www.sparkfun.com/products/11791/ ) 
 
 Πλακέτα LilyPad (https://www.sparkfun.com/products/13342)
 
@@ -134,7 +134,7 @@ App
 
 
 # Conclusions
-
+[I'm an inline-style link](https://www.google.com)
 
 # Sources
 -https://learn.sparkfun.com/tutorials/lilypad-light-sensor-hookup-guide/all
