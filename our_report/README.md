@@ -29,38 +29,38 @@
 ##### iv)Technology:
 Με βάση το project που επιλέξαμε και έπειτα από συζήτηση καταλήξαμε στα παρακάτω components, δίπλα από κάθε component παρατίθεται η πηγή του: 
 
-Conductive thread (https://www.sparkfun.com/products/11791/ ) 
+Conductive thread:[Εδώ] (https://www.sparkfun.com/products/11791/) 
 
-Πλακέτα LilyPad (https://www.sparkfun.com/products/13342)
+Πλακέτα LilyPad: [Εδώ](https://www.sparkfun.com/products/13342)
 
-Lilypad vibe board: https://www.sparkfun.com/products/11008
+Lilypad vibe board:[Εδώ] (https://www.sparkfun.com/products/11008)
 
-Lilypad gps: https://www.hellasdigital.gr/electronics/sensors/gps/neo-6m-gps-module-aircraft-flight-controller-for-arduino-mwc-imu-apm2/?sl=en
+Lilypad gps: [Εδώ](https://www.hellasdigital.gr/electronics/sensors/gps/neo-6m-gps-module-aircraft-flight-controller-for-arduino-mwc-imu-apm2/?sl=en)
 
-Rgb led: https://www.sparkfun.com/products/13735 
+Rgb led: [Εδώ](https://www.sparkfun.com/products/13735) 
 
-Θήκη για battery:https://www.sparkfun.com/products/13883 
+Θήκη για battery:[Εδώ](https://www.sparkfun.com/products/13883)
 
-Heart rate oximeter sensor: https://www.sparkfun.com/products/15219
+Heart rate oximeter sensor:[[1]] (https://www.sparkfun.com/products/15219)
 
-https://www.cableworks.gr/ilektronika/arduino-and-microcontrollers/mcu-and-components/heart-pulse/max30100-heart-rate-oximeter-pulse-sensor-module/
+[[2]](https://www.cableworks.gr/ilektronika/arduino-and-microcontrollers/mcu-and-components/heart-pulse/max30100-heart-rate-oximeter-pulse-sensor-module/)
 
 NeoLed: [Εδώ](https://www.sparkfun.com/products/12661)
 
 
 Παρακάτω χωρίζουμε τα component αναλόγως τον ρόλο τους:
 
-Input: light sensor, temperature sensor, gps, battery, vibe board
+Input:heart rate oximeter sensor, gps, battery, vibe board
 
-Output: rgb leds
+Output: rgb leds,neoled
 
-Communication: Πλακέτα Lilypad, conductive thread 
+Communication: πλακέτα Lilypad, conductive thread 
 
 Content: Οι πληροφορίες που θα παρέχει η συσκευή στον χρήστη θα είναι σχετικά με την υγεία του και τις βασικές λειτουργίες του σώματός του.
 Όπως φαίνεται και στην εικόνα στην θήκη της μπαταρίας, η οποία μπορεί να ραφτεί πάνω σε ύφασμα, έρχεται και κουμπώνει μια μπαταρία λιθίου των 3v. 
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Battery.png)
 
-Πηγή εικόνας:https://learn.sparkfun.com/tutorials/lilypad-basics-e-sewing/installing-your-battery-and-testing-your-finished-circuit 
+Πηγή εικόνας:[Εδώ](https://learn.sparkfun.com/tutorials/lilypad-basics-e-sewing/installing-your-battery-and-testing-your-finished-circuit)
 
 
 # 2nd Deliverable
@@ -68,14 +68,12 @@ Content: Οι πληροφορίες που θα παρέχει η συσκευ�
 
 Ο εγκέφαλος αυτού του συστήματος είναι η πλακέτα Lillypad πάνω στην οποία θα συνδέονται όλοι οι αντίστοιχοι αισθητήρες που θα αναλυθούν παρακάτω. Τα διάφορα components θα συνδέονται με την πλακέτα μέσω ενός conductive thread το οποίο θα είναι ραμμένο πάνω στο ύφασμα του ρούχου.
 Αρχικά στην θήκη της μπαταρίας θα τοποθετείται μπαταρία λιθίου η οποία θα έχει συγκεκριμένο χρόνο ζωής. Το vibe board δέχεται ως input κάποιες τιμές και παράγει δόνηση. Στο project μας σκοπεύουμε μέσω κώδικα να προγραμματίσουμε το lilypad ώστε όταν δέχεται μια συγκεκριμενη τιμή να δονείται ο συγκεκριμένος αισθητήρας ώστε να ενημερώνει τον χρήστη ότι έφτασε κάποιο όριο( π.χ. στους καρδιακούς του παλμούς ).
-
-
 Επίσης το σύστημα θα διαθέτει gps μέσω του οποίου θα φαίνεται μέσω app απ το κινητό η τοποθεσία του αθλητή κάθε χρονική στιγμή.
 Τέλος χρησιμοποιούνται rgb leds τα οποία θα ανάβουν αναλόγως με τις τιμές που θα δέχεται το lilypad απο τους αισθητήρες.
 
 Όσον αφορά το περιβάλλον του app, αρχικά θα εμφανίζει μια σελίδα για εγγραφή ή σύνδεση στον λογαριασμό σου. Μετά θα μεταβαίνεις στην κύρια σελίδα στην οποία θα φαίνονται τα βασικά στοιχεία τα οποία θα μπορείς να ρυθμίσεις τα όριά τους, δηλαδή τoν χρόνο, την απόσταση που θες να διανύσεις και οι θερμίδες που θες να κάψεις.
 
-## Αρχική σελίδα 
+### Αρχική σελίδα 
 
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Sign_in_Page.jpg)
 
@@ -84,7 +82,7 @@ Content: Οι πληροφορίες που θα παρέχει η συσκευ�
 
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Choice_Page.jpg)
 
-## Σελίδα με στατιστικά:
+### Σελίδα με στατιστικά:
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Statistics_Page.jpg)Ακολουθεί και ένα σχεδιάγραμμα όλων των επιλογών πλοήγησης που μπορεί να έχει ο χρήστης μέσα στην εφαρμογή:
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/1%20(1).jpg)
 ### 4) User Interface
@@ -96,7 +94,7 @@ Content: Οι πληροφορίες που θα παρέχει η συσκευ�
 Το αντικείμενο στη συνέχεια μπορεί να πλυθεί στο πλυντήριο αφου αφαιρεθουν τα αποσπώμενα ηλεκτρονικά μέρη του. Μολις τελειώσουν οι μπαταρίες ο χρήστης την αφαιρεί και την αντικαθιστά.
 ### 5) Interface Components
 
-Button
+#### Button
 
 Το σύστημα διαθέτει ένα κουμπί με το οποίο ο χρήστης μπορεί να αλληλεπιδράσει με τρεις διαφορετικούς τρόπους:
 Κρατώντας πατημένο το κουμπί παρατεταμένα  για 5 δευτερόλεπτα, ο χρήστης ενεργοποιεί/απενεργοποιεί τη συσκευή η οποία συγχρονίζεται αυτόματα με το κινητό.
@@ -104,20 +102,20 @@ Button
 Τέλος με το απλό πάτημα του κουμπιού εναλλάσσεται η απεικόνιση μεταξύ των τριών στόχων που έχει θέσει ο χρήστης (απόσταση,χρόνος,θερμίδες) καθώς και της ένδειξης της μπαταρίας στην μπαρα LED η οποία είναι τοποθετημένη δίπλα από αυτό (κουμπί). 
 Το κουμπί είναι συνδεδεμένο απευθείας με το LilyPad.
 
-NeoLed 
+#### NeoLed 
 
 Τα συγκεκριμένα LED είναι 8 στη σειρά και χρησιμοποιούνται για δείχνουν στον χρήστη την πρόοδο που κάνει όσον αφορά τους στόχους του σε πραγματικό χρόνο καθώς και την στάθμη της μπαταρίας. Συνδέονται με το LilyPad απευθείας αφού είναι απαραίτητο προκειμένου να παίρνει ο χρήστης αντίστοιχα τα δεδομένα.
 
-RGB LED strip
+#### RGB LED strip
 
 Η ταινία LED θα είναι ραμμένη περιμετρικά γύρω από το περιβραχιόνιο και στόχος της είναι να ενημερώνει το περιβάλλον του χρήστη για την ύπαρξή του ( π.χ να είναι εμφανής από μακριά στους οδηγούς οχημάτων). Ο φωτισμός της ταινίας ποικίλει και ο χρήστης μπορεί να τον αλλάξει μεταξύ πολλών διαφορετικών modes με το πάτημα του κουμπιού για 2 δευτερόλεπτα. Συνδέεται με το LilyPad.
 
 
-RGB LED 
+#### RGB LED 
 
 Η συσκευή θα διαθέτει και δυο ξεχωριστά LED τοποθετημένα δεξιά και αριστερά του κουμπιού. Βy default το αριστερό αντιστοιχεί στο οξυμετρο και το δεξί στο εύρος των καρδιακών παλμών τα οποία αναπαρίστανται χρωματικά (μπλε χαμηλα , πρασινο φυσιολογικά, κοκκινο υψηλά). Όταν ο χρήστης προκαθορισει μέσω του app συγκεκριμένη διαδρομή που θα ακολουθήσει τότε αυτά τα δυο LED αποκτούν και ακόμα μια χρήση.Η ένδειξη παραμένει στο default (οξυμετρο, παλμοι) κατά τη διάρκεια κίνησης του χρήστη, ενώ όταν μέσω GPS αντιληφθεί ότι βρίσκεται 10 μέτρα πριν από τη στροφή την οποία πρέπει να ακολουθήσει η συσκευή δονείται και αναβοσβήνει το αντίστοιχο LED πορτοκαλί χρώματος (δεξί και αριστερό)έως ότου ο χρήστης ολοκληρώσει την κίνηση αλλαγής κατεύθυνσης. Είναι συνδεδεμένα απευθείας στο LilyPad.
 
-App
+#### App
 Μέσω της εφαρμογής, ο χρήστης έχει τη δυνατότητα να θέσει 3 διαφορετικούς στόχους:
 Χιλιομετρική απόσταση που θέλει να διανύσει 
 Χρονικό διάστημα για το οποίο θα εκτελει τη δραστηριότητα 
