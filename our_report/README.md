@@ -45,8 +45,8 @@ Heart rate oximeter sensor: https://www.sparkfun.com/products/15219
 
 https://www.cableworks.gr/ilektronika/arduino-and-microcontrollers/mcu-and-components/heart-pulse/max30100-heart-rate-oximeter-pulse-sensor-module/
 
-NeoLed
-https://www.sparkfun.com/products/12661
+NeoLed: [Εδώ]
+(https://www.sparkfun.com/products/12661)
 
 
 Παρακάτω χωρίζουμε τα component αναλόγως τον ρόλο τους:
@@ -134,7 +134,7 @@ App
 
 
 # Conclusions
-[lala ](https://www.google.com)
+[](https://www.google.com)
 
 # Sources
 -https://learn.sparkfun.com/tutorials/lilypad-light-sensor-hookup-guide/all
