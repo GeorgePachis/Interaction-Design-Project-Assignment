@@ -85,8 +85,7 @@ Content: Οι πληροφορίες που θα παρέχει η συσκευ�
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Choice_Page.jpg)
 
 ## Σελίδα με στατιστικά:
-![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Statistics_Page.jpg)
-Ακολουθεί και ένα σχεδιάγραμμα όλων των επιλογών πλοήγησης που μπορεί να έχει ο χρήστης μέσα στην εφαρμογή:
+![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/Statistics_Page.jpg)Ακολουθεί και ένα σχεδιάγραμμα όλων των επιλογών πλοήγησης που μπορεί να έχει ο χρήστης μέσα στην εφαρμογή:
 ![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/1%20(1).jpg)
 ### 4) User Interface
 Το υπό σχεδίαση αντικείμενο θα είναι και αυτό wearable για το χέρι προκειμένου να αποφευχθούν τα προβλήματα που προαναφέρθηκαν. Παρόλα αυτά, δεν θα επιβαρύνει καθόλου τον χρήστη καθώς θα είναι κατασκευασμένο από λεπτο ύφασμα ειδικό για αθλητικό εξοπλισμό.Τα wearables τύπου smartwatch που χρησιμοποιούνται από τους χρήστες δεν έχουν “τέλεια” εφαρμογή με το χέρι του χρήστη καθώς με την κίνηση μπορεί να μην μένουν σταθερά και αν ο χρήστης τα σφίξει παραπάνω μπορεί να τραυματιστεί ή απλώς να νιώθει μια ενόχληση στο συγκεκριμένο σημείο. Ταυτόχρονα ο ιδρώτας μπορεί να λερώσει η να φθείρει τη συσκευή.
