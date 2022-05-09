@@ -42,7 +42,6 @@ Rgb led: [Πατήστε εδώ](https://www.sparkfun.com/products/13735)
 Θήκη για battery:[Πατήστε εδώ](https://www.sparkfun.com/products/13883)
 
 Heart rate oximeter sensor: Πατήστε εδώ[[1]](https://www.sparkfun.com/products/15219) ή εδώ
-
 [[2]](https://www.cableworks.gr/ilektronika/arduino-and-microcontrollers/mcu-and-components/heart-pulse/max30100-heart-rate-oximeter-pulse-sensor-module/)
 
 NeoLed: [Πατήστε εδώ](https://www.sparkfun.com/products/12661)
