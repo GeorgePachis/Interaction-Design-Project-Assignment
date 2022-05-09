@@ -29,11 +29,11 @@
 ##### iv)Technology:
 Με βάση το project που επιλέξαμε και έπειτα από συζήτηση καταλήξαμε στα παρακάτω components, δίπλα από κάθε component παρατίθεται η πηγή του: 
 
-Conductive thread:[Εδώ] (https://www.sparkfun.com/products/11791/) 
+Conductive thread:[Εδώ](https://www.sparkfun.com/products/11791/) 
 
 Πλακέτα LilyPad: [Εδώ](https://www.sparkfun.com/products/13342)
 
-Lilypad vibe board:[Εδώ] (https://www.sparkfun.com/products/11008)
+Lilypad vibe board:[Εδώ](https://www.sparkfun.com/products/11008)
 
 Lilypad gps: [Εδώ](https://www.hellasdigital.gr/electronics/sensors/gps/neo-6m-gps-module-aircraft-flight-controller-for-arduino-mwc-imu-apm2/?sl=en)
 
@@ -41,7 +41,7 @@ Rgb led: [Εδώ](https://www.sparkfun.com/products/13735)
 
 Θήκη για battery:[Εδώ](https://www.sparkfun.com/products/13883)
 
-Heart rate oximeter sensor:[[1]] (https://www.sparkfun.com/products/15219)
+Heart rate oximeter sensor:[[1]](https://www.sparkfun.com/products/15219)
 
 [[2]](https://www.cableworks.gr/ilektronika/arduino-and-microcontrollers/mcu-and-components/heart-pulse/max30100-heart-rate-oximeter-pulse-sensor-module/)
 
