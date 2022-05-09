@@ -134,5 +134,7 @@ App
 
 # Sources
 -https://learn.sparkfun.com/tutorials/lilypad-light-sensor-hookup-guide/all
+
 -https://learn.sparkfun.com/tutorials/lilypad-development-board-hookup-guide/all 
+
 -https://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/?fbclid=IwAR3TKg4V9QYQ2C5VZ459DC_E2gt56sk-CyIKoCvCYtHqKQN8OIMA0ne2nuQ#what
