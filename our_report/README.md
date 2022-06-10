@@ -129,7 +129,7 @@ Content: Οι πληροφορίες που θα παρέχει η συσκευ�
 # 3rd Deliverable 
 Storyboard
 
-![This is an image]()
+![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/1.jpg)
 
 
 
