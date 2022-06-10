@@ -127,6 +127,135 @@ Content: Οι πληροφορίες που θα παρέχει η συσκευ�
 
 
 # 3rd Deliverable 
+Storyboard
+
+![This is an image]()
+
+
+
+Prototyping
+Το πρωτότυπό μας: 
+
+![This is an image]()
+
+Ο κώδικας που χρησιμοποιήθηκε:
+
+
+#include <Adafruit_NeoPixel.h>
+#include <SparkFun_Bio_Sensor_Hub_Library.h>
+#include <Wire.h>
+ 
+// No other Address options.
+#define DEF_ADDR 0x55
+ 
+#define PIN 7
+// How many NeoPixels are attached to the Arduino?
+#define NUMPIXELS 8
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+ 
+// Reset pin, MFIO pin
+int resPin = 4;
+int mfioPin = 5;
+ 
+// Takes address, reset pin, and MFIO pin.
+SparkFun_Bio_Sensor_Hub bioHub(resPin, mfioPin);
+ 
+bioData body;
+// ^^^^^^^^^
+// What's this!? This is a type (like int, byte, long) unique to the SparkFun
+// Pulse Oximeter and Heart Rate Monitor. Unlike those other types it holds
+// specific information on your heartrate and blood oxygen levels. BioData is
+// actually a specific kind of type, known as a "struct".
+// You can choose another variable name other than "body", like "blood", or
+// "readings", but I chose "body". Using this "body" varible in the
+// following way gives us access to the following data:
+// body.heartrate  - Heartrate
+// body.confidence - Confidence in the heartrate value
+// body.oxygen     - Blood oxygen level
+// body.status     - Has a finger been sensed?
+ 
+ 
+ 
+void setup() {
+ 
+  Serial.begin(115200);
+ 
+  Wire.begin();
+  int result = bioHub.begin();
+ 
+ 
+  pixels.begin();  // This initializes the NeoPixel library.
+  for (int i = 0; i < NUMPIXELS; i++) {
+    pixels.setPixelColor(i, pixels.Color(1, 1, 1));
+  }
+  pixels.show();
+ 
+ 
+  long last_pix_upd = 0;
+ 
+  int bpm = 0;
+ 
+  long ms = millis();
+  if (ms - last_pix_upd > 10)  //don't update pixels too often
+  {
+    int r, g, b;
+    last_pix_upd = ms;
+    int bpm = body.heartRate;
+    float max_bright = 160;     //value of maximum brightness, max 255. But you don't always want it at max :)
+    float dd = 25;              //change in BPM between color tones (blue->green->yellow->pink->red)
+    float t1 = 90, t2, t3, t4;  //t1 - "base" BPM, lower than t1 would be blue
+    t2 = t1 + dd;
+    t3 = t2 + dd;
+    t4 = t3 + dd;
+    //code for changing color depending in which t1...t4 range we are now
+    if (bpm < t1) {
+      r = 0;
+      g = 0;
+      b = max_bright;
+    } else if (bpm < t2) {
+      r = 0;
+      g = max_bright * (bpm - t1) / dd;
+      b = max_bright - g;
+    } else if (bpm < t3) {
+      r = max_bright * (bpm - t2) / dd;
+      g = max_bright - r;
+      b = r / 4;
+    } else if (bpm < t4) {
+      r = max_bright;
+      g = 0;
+      b = max_bright / 2 - max_bright * (bpm - t3) / (2 * dd);
+    } else {
+      r = max_bright;
+      g = 0;
+      b = 0;
+    }
+    int on_pixels = (bpm - 80) / 8;  //since it's intended for running, I'm not
+    //showing anything less than 80 BPM, this way it's more sensitive in
+    //high load area
+    for (int i = 0; i < NUMPIXELS; i++) {
+      //pixels are set from last to first for no particular reason, would
+      //work just as fine if set from first to last
+      if (i < on_pixels) pixels.setPixelColor(NUMPIXELS - i - 1, pixels.Color(r, g, b));
+      else
+        pixels.setPixelColor(NUMPIXELS - i - 1, pixels.Color(0, 0, 0));  //turn off all other LEDs
+    }
+    pixels.show();
+  }
+}
+ 
+ 
+ 
+void loop() {
+ 
+  // Information from the readBpm function will be saved to our "body"
+  // variable.
+  body = bioHub.readBpm();
+ 
+ 
+  // Slow it down or your heart rate will go up trying to keep up
+  // with the flow of numbers
+  delay(250);
+}
 
 
 # Conclusions
