@@ -136,7 +136,7 @@ Storyboard
 Prototyping
 Το πρωτότυπό μας: 
 
-![This is an image]()
+![This is an image](https://github.com/GeorgePachis/Interaction-Design-Project-Assignment/blob/main/2.jpg)
 
 Ο κώδικας που χρησιμοποιήθηκε:
 
